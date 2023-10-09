@@ -212,6 +212,6 @@ def delete_single_template(template_id):
         return jsonify({'status': 'error', 'message': str(errorr)}), 500
 
 
-if __name__ == '__main__':
-    # app.run(debug=False, host='.vercel.app')
-    app.run()
+# if __name__ == '__main__':
+#     # app.run(debug=False, host='.vercel.app')
+#     app.run()
